@@ -1,6 +1,7 @@
 # Airbnb Clone Project
 
-::: details BackEnd
+<details>
+<summary>ProDev Backend</summary>
 
 ## About the Project
 
@@ -139,4 +140,5 @@ The Airbnb Clone Project is a comprehensive, real-world application designed to 
    - Use Terraform to provision and manage AWS resources (VPC, ECS, RDS).
 5. **Monitoring & Alerts**
    - Integrate CloudWatch alarms and Slack notifications for deployment status.
-     :::
+
+ </details>
