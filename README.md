@@ -142,3 +142,79 @@ The Airbnb Clone Project is a comprehensive, real-world application designed to 
    - Integrate CloudWatch alarms and Slack notifications for deployment status.
 
  </details>
+
+<details>
+<summary>ProDev Frontend</summary>
+
+## UI/UX Design Planning
+
+### Design Goals
+
+- **Intuitive Navigation:** Allow users to find and filter properties with minimal effort.
+- **Responsive Layout:** Ensure usability across desktop, tablet, and mobile.
+- **Visual Consistency:** Maintain a cohesive look & feel aligned with Airbnb’s brand identity.
+
+### Key Features
+
+- Search bar with location, date, and guest filters
+- Image carousel for property previews
+- Clear “Book Now” call-to-action
+
+### Primary Pages
+
+| Page                      | Description                                                                                  |
+| ------------------------- | -------------------------------------------------------------------------------------------- |
+| **Property Listing View** | Grid of property cards with thumbnail, title, price/night, and rating.                       |
+| **Listing Detailed View** | Full details: image gallery, description, amenities, host info, reviews, and booking widget. |
+| **Simple Checkout View**  | Review dates, pricing breakdown, payment form, and confirmation button.                      |
+
+**Why User-Friendly Design Matters:**  
+Reducing cognitive load and making actions predictable increases trust, lowers abandonment rates, and drives bookings.
+
+---
+
+## UI/UX Design Planning
+
+### Figma Style Properties
+
+- **Color Styles:**
+  - Primary: `#FF5A5F`
+  - Secondary: `#484848`
+  - Accent: `#00A699`
+  - Background: `#FFFFFF`
+  - Text: `#333333`
+- **Typography:**
+  - **Font Family:** Inter, sans-serif
+  - **Weights:** 400 (Regular), 600 (Semi-Bold), 700 (Bold)
+  - **Sizes:** 14px (Body), 16px (Subheading), 24px (Heading), 32px (Title)
+
+**Importance of Identifying Design Properties:**  
+Documenting colors and typography ensures consistency between mockups and code, speeds up hand-offs, and preserves brand integrity.
+
+---
+
+## Project Roles and Responsibilities
+
+| Role                    | Key Responsibilities                                                                          |
+| ----------------------- | --------------------------------------------------------------------------------------------- |
+| **Project Manager**     | Plan sprints, track progress, communicate with stakeholders                                   |
+| **Product Owner**       | Define user stories, prioritize backlog, clarify requirements                                 |
+| **Scrum Master**        | Facilitate ceremonies, remove blockers, coach team on Agile practices                         |
+| **Frontend Developers** | Build React components, integrate with APIs, implement responsive design                      |
+| **Backend Developers**  | Design and implement Django/GraphQL APIs, enforce business logic, write unit tests            |
+| **Designers (UX/UI)**   | Create wireframes and prototypes in Figma, maintain style guide (colors, typography, spacing) |
+| **QA/Testers**          | Develop and execute test plans, report bugs, verify fixes                                     |
+| **DevOps Engineers**    | Configure Docker, CI/CD pipelines, deploy to AWS ECS, monitor system health                   |
+
+---
+
+## UI Component Patterns
+
+- **Navbar**  
+  Responsive top bar with logo, search input, navigation links, and user menu.
+- **Property Card**  
+  Thumbnail, title, price, rating; click-through to detailed view.
+- **Footer**  
+  Site links (About, Help, Terms), social icons, copyright.
+
+<d/etails>
